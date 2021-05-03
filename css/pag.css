@@ -1,0 +1,297 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    word-wrap: break-word;
+    font-family: 'Shippori Mincho B1', serif;
+  }
+  
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #99cae1;
+  }
+#section-header{
+    width: 100%;
+    height: 100vh;   
+}
+#div-header{
+    width: 100%;
+    height: 40px;
+    padding: .8em;
+    background-color: azure;
+    color: dimgray;
+}
+
+#info-h1{
+    padding-top: 10em;
+}
+#div-h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#div-h1>h1{
+    font-size: 60px;
+}
+
+#div-h1>p{
+    font-size: 40px;
+}
+
+.general{
+    padding-right: 3em;
+    text-align: right;
+}
+
+.seccion1{
+    background-color: aliceblue;
+    width: 100%;
+    height: 100vh;
+}
+
+.columna{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+}
+.mitad1{
+    width: 49%;
+    height: 100%;
+    padding-left: 5em;
+    padding-top: 0.6em;
+}
+
+.encabezado{
+    text-align: justify;
+    align-items: center;
+}
+.row>.encabezado{
+    padding-top: 2em;
+}
+
+.encabezado>h3{
+    margin: 2%;
+    padding-left: 2em;
+}
+.mitad2{
+  
+    padding-top: 1em;
+    width: 49%;
+ 
+}
+.conen{
+    margin-top: 3em;
+}
+.apartados{
+
+    width: 90%;
+    padding-bottom: 3em;
+    padding-top: 3em;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(50, 54, 56);;
+}
+
+
+.imag{
+    width: 100%;
+}
+
+.imag>img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.desc{
+padding-left: 3em;
+text-align: left;
+}
+
+
+.contenidos{
+    width: 80%;
+}
+.foto{
+    display: flex;
+    justify-content: center;
+}
+.foto>img{
+    width: 60%;
+    border-radius: 5px;
+}
+
+.cont{
+    text-align: left;
+}
+
+.seccion2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.encabeza2{
+    margin: 5%;
+
+  
+}
+
+.fila{
+    display: flex;
+    justify-content: space-around;
+    margin:2%;
+    text-align: justify;
+    /* padding: 2em; */
+}
+.mitad
+{/*   padding: 2em; */
+    width: 35%;
+    display: inline-block;
+    text-align: justify;
+}
+
+.cuadro>h2{
+    color: dimgray;
+}
+
+.columna{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.pie{
+
+    display: flex;
+    justify-content: center;
+}
+.pie>img{
+    width: 20%;
+}
+
+#seccion3{
+    background-color: aliceblue;
+    height: 100vh;
+    width: 100%;
+}
+.col-12>hr{
+    display: flex;
+    align-items: center;
+}
+#seccion3>.row{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: stretch;
+
+}
+
+
+.col-12{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:5%;
+    width: 100%;
+}
+
+.col-12>hr{
+    width: 85%;
+}
+
+.col-12>h2{
+    text-align: center;
+    color: black;
+}
+.col-12>p{
+    text-align: center;
+    color: dimgray;
+}
+
+.col-4{
+
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+   
+}
+
+.col-4>.contenido{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    
+
+}
+
+.col-4>.contenido>.icono{
+    
+}
+
+.col-4>.contenido>.letras{
+    margin-left: 2%;
+    
+}
+
+.col-4>.contenido>.letras>p, .col-4>.contenido>.letras>h3{
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+.col-4 > a > img{
+    width: 80%;
+    padding: 10%;
+    border-radius: 80px;
+}
+
+.seccion4{
+    width: 100%;
+    height: 100vh;
+    margin: 4%;
+}
+
+.seccion4>.apartado>.imag{
+    width: 10%;
+}
+.seccion4>.informacion>h2{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.apartado{
+
+    margin: 2em;
+    width: 90%;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.dispo{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.dispo>img{
+    width: 30%;
+}
+
+.sangria{
+    padding-left: 2em ;
+}
